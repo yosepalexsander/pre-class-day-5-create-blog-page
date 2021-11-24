@@ -27,6 +27,8 @@ function addBlog(e) {
     postedAt: new Date()
   }
 
+  blogs.push(blog)
+  
   // invoke function to display updated blogs to HTML---------------------------------------------------
   renderBlog()
 }
